@@ -1,0 +1,303 @@
+
+
+
+
+
+
+
+
+
+
+
+                                  MYSQL
+
+
+
+
+                             ATTENDENESS  MANAGEMENT   SYSTEM
+             
+
+                      
+   Introduction
+                                              "  Attendance Management System” is software developed for maintaining the attendance of the student on the daily basis in the collage. Here thestaffs, who are handling the subjects, will be responsible to mark the attendance of thestudents. Each staff will be given with a separate username and password based onthe subject they handle. An accurate report based on the student attendance isgenerated here. This system will also help in evaluating attendance eligibility criteria   of a students report of  attendance on weekly and monthly basis is generated. "                          
+
+                                   
+Aim :  project   Attendencess managenment system  save time .display record time to that time. manual presenty save time .
+ Abstract
+
+                                      "Student attendance management system deals with the maintenance of the  student’s attendance details. It is generates the attendance of the student on basis of presence in class. It is maintained on the daily basis of their attendance. the staffs will be provided with       the separate username & password to make the student’s status".
+                                                 "The staffs handling the particular subjects responsible to make the attendance for all students. Only if the student present on that particular period, the attendance will be calculated. The students attendance reports based on weekly and consolidate will be generated."        
+ Objective
+                                                 “Attendance Management System” is software developed for maintaining the attendance of the student on the daily basis in the collage. Here thestaffs, who are handling the subjects, will be responsible to mark the attendance of thestudents. Each staff will be given with a separate username and password based onthe subject they handle. An accurate report based on the student attendance  generated  here. This system will also help in evaluating attendance eligibility criteria of students.
+
+project overview
+
+1.STUDENTS
+ STUNAME
+ STUID
+ COURSE
+ DEPARTMENT
+
+2.ATTENDENSS
+TEACHERID
+STUDENTID
+STUDENTSNAME
+SUBJECT
+TIME
+ATDATEOF
+STATUS
+
+3 TEACHERS
+ TEACHERID
+ TEACHERNAME
+
+
+Entity relationship diagram
+
+                   Attendeness   Management  System 
+
+ 
+    1.CREATE DATABASE STUDENTS 
+
+
+ 
+
+
+     2.  CREATE TABLE  STUDENTS 
+create   students table follwing  the way  thus  .
+
+ 
+ DESC  TABLE STUDENTS
+Follwing the describe of the  desc students the table observe table  desc  of the table  which way desc students
+
+ 
+     3.INSERT VALUES IN STUDENTS
+insert  into  values in students  the table  of the which way follwing .
+ 
+
+SHOW THAT THE TABLE STUDENTS
+select * from students then the show table.
+ 
+
+ 4.   CREATE TABLE ATTENDENCESS
+create table  attendencess of the  create the follwing way explain then the create table.
+ 
+
+
+DESC TABLE  ATTENDENCESS
+you have describe the table Attendencess show of the follwing way
+ 
+ 
+
+ INSERT    INTO VALUES ATTENDENCESS
+Insert  into value attendencess of the table way of follwing 
+
+ 
+
+6.DISPLAY ATTENDENCESS
+display the table then you can then you can this table observe then null values create then you have the update table thus you have display the select slash from display tablename then show table.
+ 
+DESC ATTENDENCESS
+
+ 
+7 . CREATE TABLE OF TEACHERS
+
+ 
+ 
+
+
+ DESC TEACHERS TABLE 
+
+
+ 
+
+
+INSERT INTO VALUE OF THE  TEACHERS TABLES
+insert the value of the  table name is teachers  then the you first insert the  column name then table you have create the query. then put the values  of the teachers table.
+ 
+
+
+ 
+
+
+    8.   UPDATE STUDENTS TABLE
+Updating  stu_name  where stu_id=12345 of th students table.
+ 
+
+Updating the studnts of the Stu_Age where  Stu_Id=13345;
+
+ 
+
+9.CHANGE TABLE 
+
+
+change of th tables of students  drop the stu_age column.
+
+ 
+
+
+10.MODIFY TABLE 
+modify datatype of department number datatype varchar.
+
+ 
+11.NOT OPEROTOR
+student not age =22 then not operator use.
+ 
+
+
+  12. LIKE OPERATOR
+Name  that include s
+ 
+
+LIKE OPERATOR
+Name that contains t,q,f letters
+  
+
+Names that  ends from a.
+ 
+
+Names that include a
+ 
+
+ Names that starts from s.
+ 
+   13. ORDER BY QUERIES 
+  students records  stu_id all the   records  ascending orders follwing .
+ 
+
+students records  Stu_Name the  records  descending orders follwing  .
+ 
+
+14.  GROUP BY
+group  students of the stu_age  aggrigate function use.
+ 
+
+15.OR OPERATOR 
+or operator  of fetch two record using  .
+
+ 
+
+.
+
+17.DISTINCT
+select unique stu_age from table.
+ 
+
+18.LESS THAN EQUAL TO THE STUDENTS.
+find Stu_id less than equal to 21.
+ 
+
+19.GREATER  THAN EQUAL TO STUDENTS
+
+find stu_age greater than equal to 21
+ 
+
+
+  
+
+
+
+21.WHERE CLAUSE
+
+  show details of this who has specific  Stu_id.
+
+ 
+22.Alias
+give temporary name to Stu_Name students table.
+ 
+
+
+23.INNER JOIN
+ inner join of the students table  and attendencess.
+ 
+
+ LEFT JOIN
+left join of the students table and attendencess table.
+ 
+
+RIGHT JOIN
+ right join of th students table and attendencess table.
+
+ 
+
+CROSS JOIN
+
+ students  of the  cross join   into of th students and attendencess of this table.
+ 
+
+
+24. LIMIT
+Details of Stu_id who has stu_id 3r last.
+ 
+details of stu_id  who has stu_id 2nd last.
+
+ 
+
+25.VIEW  
+   Give tempory name   table students tables name   then create view.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25. SUBQUERY
+SUBQUERY
+find Attendencess students record count  then  display stu_id,status,tech_id.
+
+ 
+
+find Attendencess table teachear  giving attendence then present and absents students status ,stu_name,stu_id display.
+
+ 
+find Attendencess of the table  this of giving teacher attendencess    that time result show 
+of the  teacher giving stu_id,tech_id,status Attendeness.
+
+ 
+
+Display record of table of this Attendencess  record present of this lecture only present status  students .
+ 
+Attendencess of the table teacher giving attendencess  then   absent of the  record display. 
+thus not attend lecture then they record display.
+
+ 
+
+ATTENDENCESS ONLY OF THIS   ONLY RECORDS DISPLAY STU_ID WHAT THEY DISPLAY
+only of this record display we have giving stu_id then not display other record .
+
+ 
+
+Display attendencess table for the absent record only teachers of absent .
+ 
+
+
+
+
+
+
+
+
+THANK YOU
+
+
+
